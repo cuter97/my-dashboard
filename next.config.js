@@ -11,6 +11,10 @@ const nextConfig = {
                 hostname: 'raw.githubusercontent.com',
                 pathname: '/PokeAPI/sprites/master/sprites/pokemon/other/dream-world'
             },
+            {
+                protocol: 'https',
+                hostname: 'raw.githubusercontent.com',
+            },
         ]
     }
 }
