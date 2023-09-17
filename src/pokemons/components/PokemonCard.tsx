@@ -18,8 +18,8 @@ export const PokemonCard = ({ pokemon }: Props) => {
                     <Image
                         key={pokemon.id}
                         src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${pokemon.id}.svg`}
-                        width={200}
-                        height={200}
+                        width={100}
+                        height={100}
                         alt={pokemon.name}
                         priority={false}
                         // fill
